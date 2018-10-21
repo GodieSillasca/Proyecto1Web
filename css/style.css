@@ -1,0 +1,95 @@
+.tituloprron{
+	color: white;
+	font-family: Helvetica;
+}
+.presentacion{
+	color: white;
+	font-family: Helvetica;
+	background: #bdbdbd;
+}
+
+.pacman{
+	width: 0;
+	height: 0;
+	border-right: 60px solid transparent;
+	border-top: 60px solid yellow;
+	border-left: 60px solid yellow;
+	border-bottom: 60px solid yellow;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	position: relative;
+	animation: pacman 1.5s infinite;
+}
+
+@keyframes pacman{
+	0%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid transparent; border-bottom: 60px solid yellow;left: 0px; top: 0px;}
+	25%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid yellow; border-bottom: 60px solid yellow;left: 150px; top: 0px;}
+	50%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid transparent; border-bottom: 60px solid yellow;left: 0px; top: 0px;}
+	75%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid yellow; border-bottom: 60px solid yellow;left: 150px; top: 0px;}
+	100%{border-top: 60px solid yellow ;border-left: 60px solid yellow; border-right: 60px solid transparent; border-bottom: 60px solid yellow;left: 0px; top: 0px;}
+}
+
+.pacman2{
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-top: 60px solid yellow;
+	border-right: 60px solid yellow;
+	border-bottom: 60px solid yellow;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	position: relative;
+	animation: pacman2 1.5s infinite;
+}
+
+@keyframes pacman2{
+	0%{border-top: 60px solid yellow ;border-right: 60px solid yellow; border-left: 60px solid transparent; border-bottom: 60px solid yellow;left: 150px; top: 0px;}
+	25%{border-top: 60px solid yellow ;border-right: 60px solid yellow; border-left: 60px solid yellow; border-bottom: 60px solid yellow;left: 0px; top: 0px;}
+	50%{border-top: 60px solid yellow ;border-right: 60px solid yellow; border-left: 60px solid transparent; border-bottom: 60px solid yellow;left: 150px; top: 0px;}
+	75%{border-top: 60px solid yellow ;border-right: 60px solid yellow; border-left: 60px solid yellow; border-bottom: 60px solid yellow;left: 0px; top: 0px;}
+	100%{border-top: 60px solid yellow ;border-right: 60px solid yellow; border-left: 60px solid transparent; border-bottom: 60px solid yellow;left: 150px; top: 0px;}
+}
+
+#bola{
+	width: 0;
+	height: 0;
+	border-left: 60px solid #bdbdbd;
+	border-top: 60px solid #bdbdbd;
+	border-right: 60px solid #bdbdbd;
+	border-bottom: 60px solid #bdbdbd;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	position: relative;
+	transition: width 1s, height 4s;
+}
+
+#bola:hover {
+	width: 230px;
+	height: 50px;
+}
+
+#animacion1{
+	width: 0;
+	height: 0;
+	border-right: 60px solid #bdbdbd;
+	border-top: 60px solid #bdbdbd;
+	border-left: 60px solid #bdbdbd;
+	border-bottom: 60px solid #bdbdbd;
+	
+	position: relative;
+	animation: animacion1 1.5s infinite;
+}
+
+@keyframes animacion1{
+	0%{left: 0px; top: 0px;}
+	25%{left: 150px; top: 0px;}
+	50%{left: 0px; top: 0px;}
+	75%{left: 150px; top: 0px;}
+	100%{left: 0px; top: 0px;}
+}
